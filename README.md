@@ -7,11 +7,8 @@ This project is a multiplayer strategy game developed in Java. It allows 2 to 4 
 
 # Victory and Defeat Conditions
 
-## Win Condition:
-Destroy all enemy bases or conquer all of their territories.
-
-## Lose Condition: 
-Lose your base or all your territories.
+- Win Condition : Destroy all enemy bases or conquer all of their territories.
+- Lose Condition : Lose your base or all your territories.
 
 ![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete2.gif)
 
@@ -47,8 +44,7 @@ The main hub for soldier production. If it is destroyed, the player loses.
 Increases the player's gold income per turn.
 
 3. Towers:
-Offensive Tower: Increases the attack of adjacent soldiers.
-Defensive Tower: Increases the defense of adjacent soldiers.
+Offensive Tower which increases the attack of adjacent soldiers and defensive Tower which increases the defense of adjacent soldiers.
 
 4. Trees:
 Affect the player’s gold income based on their location (neutral or within a player’s zone).
@@ -59,8 +55,7 @@ One type of soldier with evolvable levels, improving health and attack power.
 6. Fusion Mechanism: Combine soldiers to create more powerful units.
 
 7. Economy and Resource Management :
-Earn gold by constructing houses, destroying trees in neutral or enemy zones, and conquering territories.
-Efficient resource management is essential to strengthen your army and expand your territory.
+Earn gold by constructing houses, destroying trees in neutral or enemy zones, and conquering territories. Efficient resource management is essential to strengthen your army and expand your territory.
 
 ![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete4.gif)
 
@@ -71,6 +66,7 @@ The project uses the following libraries:
 - JFreeChart 4.12
 - Log4j 1.2
 - JUnit 5 (v4.5.6):
+  
 >[!NOTE]
 > All dependencies are included in the /libs folder.
 
