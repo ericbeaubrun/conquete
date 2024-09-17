@@ -63,9 +63,9 @@ Earn gold by constructing houses, destroying trees in neutral or enemy zones, an
 
 # Dependencies
 The project uses the following libraries:
-- JFreeChart 4.12
-- Log4j 1.2
-- JUnit 5 (v4.5.6):
+- JFreeChart (4.12+)
+- Log4j (1.2+)
+- JUnit5 (4.5.6+)
   
 >[!NOTE]
 > All dependencies are included in the /libs folder.
