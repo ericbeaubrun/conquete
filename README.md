@@ -1,46 +1,76 @@
-# Project overview
+# Project Overview
+This project is a multiplayer strategy game developed in Java. It allows 2 to 4 players (humans and/or bots) to compete on a map composed of colored tiles. Each player controls a base, soldiers, and structures, aiming to conquer territories, manage resources, and eliminate opponents to win the game.
 
-This software engineering project is a real-time air traffic simulator designed to automatically model and manage aircraft movement and airport operations. It simulates complex scenarios including multiple flights, real-time flight trajectories, collision risk management, and unforeseen events such as aviation emergencies.
-
-![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/aerien1.gif)
-
----
-
-# Key Features
-* Simulation visualization
-Real-time display of date and time to follow the progress of the simulation.
-2. Airport Monitoring
-Visualization of airports, display of their data: name, total number of runways, planes ready to take off.
-3. Aircraft Tracking
-Visualization of aircraft in flight with their key information (altitude, speed, distance traveled, departure and arrival airports, departure/arrival times).
-4. Airplane Trajectories in Real Time
-Real-time trajectory displayed with a solid line for the completed route and a dotted line for the remaining route.
-5. Adjustable Simulation Speed
-Ability to increase or decrease the speed of the simulation.
-6. Collision Detection and Avoidance
-Automatic collision risk management: reduction of an aircraft's speed to avoid an accident.
-7. Generation of Emergency Events
-Rare events such as breakdowns or medical emergencies may occur, resulting in an emergency landing.
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete1.gif)
 
 ---
 
-# How It Works 
+# Victory and Defeat Conditions
 
-![Application screenshot 2](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/aerien2.gif)
+## Win Condition:
+Destroy all enemy bases or conquer all of their territories.
 
-1. Background: Displays a map showing airports and airplanes in flight.
-2. Trajectory: Shows the flight paths of the planes.
-3. Grid: Toggles the map's grid view.
-4. Relief: Click the "Relief" button to display geographical features such as mountains and elevations on the map.
-5. Pause: Click the pause button to stop the simulation.
-6. Resume: Click the pause button again to resume the simulation.
-7. Speed Adjustment: Use the "speed +" and "speed -" buttons to adjust the speed of the simulation.
-8. Data Visualization:
-9. Airports: Click on an airport to view its data, including its name, number of runways, and the number of planes ready for takeoff.
-10. Planes: Click on a plane in flight to view its details, such as altitude, speed, remaining fuel percentage, departure/arrival airports, and departure/arrival times.
+## Lose Condition: 
+Lose your base or all your territories.
+
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete2.gif)
 
 ---
 
-> [!NOTE]
-> This project is part of an academic assignment for undergraduate students pursuing a degree in computer science. It was developed as part of a university course, aimed at designing a real-time air traffic simulator. The goal was to apply theoretical concepts from software engineering, real-time systems, and computer graphics to create a functional and interactive simulation of air traffic management.
+# Main Features
+
+## Player and AI management:
+- Players, whether human or AI, control territories, gold, soldiers, and structures, which they can upgrade during the game.
+  
+## AI Difficulty Levels:
+- Normal: Standard AI behavior.
+- Unfair: The AI gains additional resources and is more challenging to defeat.
+  
+## Save and Load:
+- The game includes the ability to save progress and load previously saved games.
+  
+## Player Statistics:
+- Displayed in real-time, including base health, gold earned per turn, and the number of territories owned.
+- Visual Charts and Graphs:
+- Graphs show player progression, territory distribution, and military strength.
+
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete3.gif)
+
+---
+
+# Game Elements
+
+1. Base:
+The main hub for soldier production. If it is destroyed, the player loses.
+
+2. House:
+Increases the player's gold income per turn.
+
+3. Towers:
+Offensive Tower: Increases the attack of adjacent soldiers.
+Defensive Tower: Increases the defense of adjacent soldiers.
+
+4. Trees:
+Affect the player’s gold income based on their location (neutral or within a player’s zone).
+
+5. Soldiers and Combat:
+One type of soldier with evolvable levels, improving health and attack power.
+
+6. Fusion Mechanism: Combine soldiers to create more powerful units.
+
+7. Economy and Resource Management :
+Earn gold by constructing houses, destroying trees in neutral or enemy zones, and conquering territories.
+Efficient resource management is essential to strengthen your army and expand your territory.
+
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete4.gif)
+
+---
+
+# Dependencies
+The project uses the following libraries:
+- JFreeChart 4.12
+- Log4j 1.2
+- JUnit 5 (v4.5.6):
+>[!NOTE]
+> All dependencies are included in the /libs folder.
 
