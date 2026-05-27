@@ -1,7 +1,7 @@
 # Project Overview
 This project is a multiplayer strategy game developed in Java. It allows 2 to 4 players (humans and/or bots) to compete on a map composed of colored tiles. Each player controls a base, soldiers, and structures, aiming to conquer territories, manage resources, and eliminate opponents to win the game.
 
-![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete1.gif)
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio-js/blob/master/public/resources/projects/conquete1.gif)
 
 ---
 
@@ -10,7 +10,7 @@ This project is a multiplayer strategy game developed in Java. It allows 2 to 4 
 - Win Condition : Destroy all enemy bases or conquer all of their territories.
 - Lose Condition : Lose your base or all your territories.
 
-![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete2.gif)
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio-js/blob/master/public/resources/projects/conquete2.gif)
 
 ---
 
@@ -31,7 +31,7 @@ This project is a multiplayer strategy game developed in Java. It allows 2 to 4 
 - Visual Charts and Graphs:
 - Graphs show player progression, territory distribution, and military strength.
 
-![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete3.gif)
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio-js/blob/master/public/resources/projects/conquete3.gif)
 
 ---
 
@@ -57,7 +57,7 @@ One type of soldier with evolvable levels, improving health and attack power.
 7. Economy and Resource Management :
 Earn gold by constructing houses, destroying trees in neutral or enemy zones, and conquering territories. Efficient resource management is essential to strengthen your army and expand your territory.
 
-![Application screenshot 1](https://github.com/ericbeaubrun/portfolio/blob/master/public/resources/projects/conquete4.gif)
+![Application screenshot 1](https://github.com/ericbeaubrun/portfolio-js/blob/master/public/resources/projects/conquete4.gif)
 
 ---
 
